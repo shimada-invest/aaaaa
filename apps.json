@@ -1,0 +1,8 @@
+[
+    { "name": "hrforce", "command": [ "./launch.sh", "python", "-u", "proc.py", "--project", "HRFORCE" ] },
+    { "name": "lagless", "command": [ "./launch.sh", "python", "-u", "proc.py", "--project", "LAGLESS" ] },
+    { "name": "nikkei", "command": [ "./launch.sh", "python", "-u", "proc.py", "--project", "NIKKEI" ] },
+    { "name": "life", "command": [ "./launch.sh", "python", "-u", "proc.py", "--project", "LIFE" ] },
+    { "name": "box", "command": [ "./launch.sh", "python", "-u", "box-monitor.py" ] },
+    { "name": "ses", "command": [ "./launch.sh", "python", "-u", "delivery-monitor.py" ] }
+]
